@@ -1,0 +1,5 @@
+.DS_Store
+emptyExampleDebug/
+emptyExample.xcodeproj/*
+openFrameworks-Info.plist
+Project.xcconfig
