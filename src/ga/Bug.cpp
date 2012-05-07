@@ -26,7 +26,7 @@ void Bug::setup(ofVec2f position, int nodeNum) {
 	for (int i = 1; i < nodes.size(); i++) {
 		ofxBox2dJoint joint;
         joint.setup(box2d->getWorld(), nodes[i-1].body, nodes[i].body);
-        joint.setLength(15);
+        joint.setLength(5);
         joints.push_back(joint);
 	}
 }
